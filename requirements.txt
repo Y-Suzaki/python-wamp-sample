@@ -1,0 +1,5 @@
+autobahn==22.6.1
+eth-abi==2.2.0
+web3==5.31.4
+Twisted[windows_platform]
+crossbar
