@@ -25,11 +25,11 @@ const signatureV4 = new SignatureV4({
 
 const request = new HttpRequest({
   protocol: 'wss',
-  hostname: 'n41tp3e8i3.execute-api.ap-northeast-1.amazonaws.com',
+  hostname: 'ntsqtgfbp1.execute-api.ap-northeast-1.amazonaws.com',
   path: '/production',
   method: 'GET',
   headers: {
-    host: 'n41tp3e8i3.execute-api.ap-northeast-1.amazonaws.com'
+    host: 'ntsqtgfbp1.execute-api.ap-northeast-1.amazonaws.com'
   }
 })
 
@@ -42,7 +42,7 @@ const options = {
 
 // Websocketの接続時、認証用の署名を設定する。
 const ws = new WebSocket(
-  'wss://n41tp3e8i3.execute-api.ap-northeast-1.amazonaws.com/production',
+  'wss://ntsqtgfbp1.execute-api.ap-northeast-1.amazonaws.com/production',
   undefined,
   options
 );
